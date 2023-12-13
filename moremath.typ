@@ -1,8 +1,5 @@
 // === GENERIC ===
 
-// A larger `quad`
-#let gap = h(2em)
-
 // A handy thing to slightly increase parentheses size. E.g.:
 // `big((x - y) - (y - z))` will make the external parentheses a bit bigger
 #let big(x) = math.lr(x, size: 150%)
